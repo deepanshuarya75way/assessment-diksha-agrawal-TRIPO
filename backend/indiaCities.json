@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "description": "Pink City of India",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
+    "places": [
+      {
+        "name": "Hawa Mahal",
+        "image": "https://images.unsplash.com/photo-1609948543911-5a1c7f0e4b1f",
+        "description": "Iconic palace",
+        "cost": 100
+      },
+      {
+        "name": "Amber Fort",
+        "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642",
+        "description": "Historic fort",
+        "cost": 200
+      }
+    ]
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "description": "City of Lakes",
+    "image": "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33",
+    "places": [
+      {
+        "name": "City Palace",
+        "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+        "description": "Royal palace",
+        "cost": 150
+      },
+      {
+        "name": "Lake Pichola",
+        "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791",
+        "description": "Scenic lake",
+        "cost": 50
+      }
+    ]
+  },
+  {
+    "name": "Delhi",
+    "state": "Delhi",
+    "description": "Capital of India",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220",
+    "places": [
+      {
+        "name": "India Gate",
+        "image": "https://images.unsplash.com/photo-1577083552792-8c6a5d71b99c",
+        "description": "War memorial",
+        "cost": 50
+      },
+      {
+        "name": "Red Fort",
+        "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+        "description": "Historic fort",
+        "cost": 150
+      }
+    ]
+  },
+  {
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "description": "City of Dreams",
+    "image": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66",
+    "places": [
+      {
+        "name": "Gateway of India",
+        "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09f",
+        "description": "Famous landmark",
+        "cost": 100
+      },
+      {
+        "name": "Marine Drive",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "description": "Sea view road",
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "name": "Goa",
+    "state": "Goa",
+    "description": "Beaches & nightlife",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "places": [
+      {
+        "name": "Baga Beach",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "description": "Popular beach",
+        "cost": 200
+      },
+      {
+        "name": "Fort Aguada",
+        "image": "https://images.unsplash.com/photo-1588614589041-895b88991e35",
+        "description": "Historic fort",
+        "cost": 100
+      }
+    ]
+  },
+  {
+    "name": "Bangalore",
+    "state": "Karnataka",
+    "description": "Silicon Valley of India",
+    "image": "https://images.unsplash.com/photo-1580655653885-65763b2597d0",
+    "places": [
+      {
+        "name": "Lalbagh",
+        "image": "https://images.unsplash.com/photo-1592817821007-86e7a0b0a4c3",
+        "description": "Botanical garden",
+        "cost": 20
+      },
+      {
+        "name": "Cubbon Park",
+        "image": "https://images.unsplash.com/photo-1596367407372-96cb88503db6",
+        "description": "City park",
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "description": "Cultural capital",
+    "image": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54",
+    "places": [
+      {
+        "name": "Marina Beach",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "description": "Longest beach",
+        "cost": 0
+      },
+      {
+        "name": "Kapaleeshwarar Temple",
+        "image": "https://images.unsplash.com/photo-1598268035608-3f7e6a4d3e8c",
+        "description": "Ancient temple",
+        "cost": 50
+      }
+    ]
+  },
+  {
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "description": "City of Joy",
+    "image": "https://images.unsplash.com/photo-1558431382-27e303142255",
+    "places": [
+      {
+        "name": "Howrah Bridge",
+        "image": "https://images.unsplash.com/photo-1586176834665-8c4a7c4b8b7c",
+        "description": "Iconic bridge",
+        "cost": 0
+      },
+      {
+        "name": "Victoria Memorial",
+        "image": "https://images.unsplash.com/photo-1589307004393-7c7c8a43c1a4",
+        "description": "Historic monument",
+        "cost": 50
+      }
+    ]
+  }
+]

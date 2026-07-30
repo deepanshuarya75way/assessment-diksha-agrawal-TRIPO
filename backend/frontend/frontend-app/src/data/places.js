@@ -1,0 +1,32 @@
+const places = [
+  { name: "Goa", price: 5000, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e" },
+  { name: "Jaipur", price: 4000, image: "https://images.unsplash.com/photo-1599661046289-e31897846e41" },
+  { name: "Manali", price: 6000, image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23" },
+  { name: "Delhi", price: 3000, image: "https://images.unsplash.com/photo-1587474260584-136574528ed5" },
+  { name: "Mumbai", price: 7000, image: "https://images.unsplash.com/photo-1595658658481-d53d3f999875" },
+  { name: "Kerala", price: 8000, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470" },
+  { name: "Agra", price: 3500, image: "https://images.unsplash.com/photo-1548013146-72479768bada" },
+  { name: "Udaipur", price: 5500, image: "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0" },
+  { name: "Varanasi", price: 3000, image: "https://images.unsplash.com/photo-1561361058-c24f6a1d8e2c" },
+  { name: "Rishikesh", price: 4000, image: "https://images.unsplash.com/photo-1580657018950-c7f7b5b9b6b3" },
+  { name: "Shimla", price: 5000, image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220" },
+  { name: "Darjeeling", price: 6000, image: "https://images.unsplash.com/photo-1587474260584-136574528ed5" },
+  { name: "Leh Ladakh", price: 12000, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470" },
+  { name: "Amritsar", price: 3500, image: "https://images.unsplash.com/photo-1609948543911-5c7e6d9c3b6f" },
+  { name: "Chennai", price: 5000, image: "https://images.unsplash.com/photo-1582456891925-a53965520520" },
+  { name: "Bangalore", price: 6000, image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2" },
+  { name: "Hyderabad", price: 5500, image: "https://images.unsplash.com/photo-1585128792020-803d29415281" },
+  { name: "Pondicherry", price: 7000, image: "https://images.unsplash.com/photo-1599661046289-e31897846e41" },
+  { name: "Andaman", price: 20000, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e" },
+  { name: "Ooty", price: 6500, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470" },
+  { name: "Munnar", price: 7000, image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23" },
+  { name: "Coorg", price: 6000, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470" },
+  { name: "Kolkata", price: 4000, image: "https://images.unsplash.com/photo-1558431382-27e303142255" },
+  { name: "Sikkim", price: 9000, image: "https://images.unsplash.com/photo-1548013146-72479768bada" },
+  { name: "Meghalaya", price: 10000, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470" },
+  { name: "Nagaland", price: 11000, image: "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0" },
+  { name: "Kashmir", price: 15000, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470" },
+  { name: "Jaisalmer", price: 5000, image: "https://images.unsplash.com/photo-1599661046289-e31897846e41" }
+];
+
+export default places;
