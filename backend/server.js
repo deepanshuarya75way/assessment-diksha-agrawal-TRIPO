@@ -14,7 +14,6 @@ import restaurantRoutes from "./routes/restaurantRoutes.js";
 import weatherRoutes from "./routes/weatherRoutes.js";
 import feedbackRoutes from "./routes/feedbackRoutes.js";
 
-
 dotenv.config();
 
 const app = express();
@@ -28,14 +27,20 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://192.168.31.221:3000",
   "http://192.168.31.221:5173",
+
+  // Vercel
+  "https://tripo-fbne5sx2h-diksha6207s-projects.vercel.app",
+  "https://tripo.vercel.app",
 ];
 
 app.use(
   cors({
-    origin: function (origin, callback) {
-      // Allow requests without an origin
-      // and the origins listed above.
-      if (!origin || allowedOrigins.includes(origin)) {
+    origin: (origin, callback) => {
+      if (
+        !origin ||
+        allowedOrigins.includes(origin) ||
+        origin.endsWith(".vercel.app")
+      ) {
         callback(null, true);
       } else {
         callback(new Error("CORS not allowed"));
@@ -57,23 +62,14 @@ app.use(express.urlencoded({ extended: true }));
 ========================= */
 
 app.use("/api/ai", aiRoutes);
-
 app.use("/api/auth", authRoutes);
-
 app.use("/api/states", stateRoutes);
-
 app.use("/api/cities", cityRoutes);
-
 app.use("/api/booking", bookingRoutes);
-
 app.use("/api/payment", paymentRoutes);
-
 app.use("/api/hotels", hotelRoutes);
-
 app.use("/api/restaurants", restaurantRoutes);
-
 app.use("/api/weather", weatherRoutes);
-
 app.use("/api/feedback", feedbackRoutes);
 
 /* =========================
@@ -100,8 +96,6 @@ mongoose
 
     app.listen(PORT, "0.0.0.0", () => {
       console.log(`🚀 TRIPO Server Running On Port ${PORT}`);
-      console.log(`🌐 Local: http://localhost:${PORT}`);
-      console.log(`🌐 Network: http://192.168.31.221:${PORT}`);
     });
   })
   .catch((err) => {
