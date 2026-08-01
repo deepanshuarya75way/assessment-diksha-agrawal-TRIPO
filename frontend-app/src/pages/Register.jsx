@@ -5,6 +5,8 @@ const API =
   process.env.REACT_APP_BACKEND_URL ||
   "http://localhost:5000";
 
+  console.log("API =", API);
+
 function Register() {
   const [form, setForm] = useState({
     name: "",
