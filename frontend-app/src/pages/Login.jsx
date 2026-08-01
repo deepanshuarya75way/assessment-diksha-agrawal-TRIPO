@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const API =
-  import.meta.env.VITE_BACKEND_URL ||
+  process.env.REACT_APP_BACKEND_URL ||
   "http://localhost:5000";
 
-  console.log("API =", API);
+console.log("API =", API);
 
 function Login() {
   const [form, setForm] = useState({
