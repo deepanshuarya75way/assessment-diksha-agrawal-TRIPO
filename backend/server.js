@@ -1,3 +1,5 @@
+require("dotenv").config({path:"./ backend.env"});
+
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
