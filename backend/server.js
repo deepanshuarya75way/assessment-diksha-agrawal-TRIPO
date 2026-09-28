@@ -1,16 +1,16 @@
-require("dotenv").config({path:"./ backend.env"});
+
 
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import aiRoutes from "./routes/aiRoutes.js";
+//import aiRoutes from "./routes/aiRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
 import stateRoutes from "./routes/stateRoutes.js";
 import cityRoutes from "./routes/cityRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
-import paymentRoutes from "./routes/paymentRoutes.js";
+//import paymentRoutes from "./routes/paymentRoutes.js";
 import hotelRoutes from "./routes/hotelRoutes.js";
 import restaurantRoutes from "./routes/restaurantRoutes.js";
 import weatherRoutes from "./routes/weatherRoutes.js";
@@ -63,12 +63,12 @@ app.use(express.urlencoded({ extended: true }));
    ROUTES
 ========================= */
 
-app.use("/api/ai", aiRoutes);
+//app.use("/api/ai", aiRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/states", stateRoutes);
 app.use("/api/cities", cityRoutes);
 app.use("/api/booking", bookingRoutes);
-app.use("/api/payment", paymentRoutes);
+//app.use("/api/payment", paymentRoutes);
 app.use("/api/hotels", hotelRoutes);
 app.use("/api/restaurants", restaurantRoutes);
 app.use("/api/weather", weatherRoutes);
